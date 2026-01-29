@@ -5,49 +5,56 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-cyan)
 ![Stack](https://img.shields.io/badge/tech-React%20%7C%20Electron%20%7C%20Spring%20Boot%20%7C%20AI-purple)
 
-> **"A alma na máquina. Sua segurança, seu tutor, seu controle."**
+> **"A tecnologia não deve ser apenas inteligente, deve estar viva."**
 
 <div align="center">
   <img src="/ghost-interface-main/public/GHOST.png" alt="GHOST Logo" width="200" />
   <br>
-  <i>Uma Entidade Cibernética de Acessibilidade e Produtividade.</i>
+  <i>Inclusão Digital através da Hiper-Automação.</i>
 </div>
 
 ---
 
-## 📋 Sobre o Projeto
+## 💡 O Problema & A Inovação
 
-O **GHOST** não é apenas um assistente virtual; é um ecossistema **SaaS (Software as a Service)** projetado para atuar como uma extensão cognitiva e física do usuário.
+Enquanto o mercado e as Big Techs (Apple, Amazon, Google) focam massivamente em **Assistentes de Voz** (Alexa, Siri), a **Comunidade Surda** é frequentemente ignorada. Como é que uma pessoa surda interage com uma IA que apenas fala? Como chama o SAMU ou a Polícia numa emergência se não consegue falar ao telefone?
 
-Construído sob uma arquitetura de microsserviços e envolto em uma estética **Cyberpunk/Tactical**, o GHOST resolve três dores modernas:
-1.  **Inclusão:** Ensino de idiomas e LIBRAS acessível.
-2.  **Segurança:** Protocolos de emergência para PcD (Pessoas com Deficiência).
-3.  **Hiper-Automação:** Controle total de Hardware (PC) e IoT.
+**O GHOST preenche essa lacuna.**
+Diferente dos assistentes convencionais, o GHOST é uma **Assistente Visual e Física**. Utilizamos a capacidade de raciocínio da IA Generativa e conectamo-la fisicamente ao computador e à casa do utilizador. O software não apenas "responde a perguntas", ele **age no mundo real** e comunica-se na língua nativa da comunidade (LIBRAS), transformando respostas de áudio em sinais visuais.
+
+O GHOST democratiza o acesso à Inteligência Artificial Generativa e Automação Residencial para quem sempre foi deixado de fora.
 
 ---
 
 ## 🚀 Funcionalidades Principais
 
-### 🧠 Core & Inteligência (The Brain)
-* **Avatar 3D Vivo:** Integração com *Ready Player Me*. O avatar (ASPAS/CHRONO) segue o rosto do usuário via Webcam e possui sincronia labial (Lip-Sync) em tempo real baseada na amplitude da voz.
-* **Processamento Natural:** Motorizado pela API **Google Gemini**, capaz de entender contexto, ironia e comandos complexos.
-* **Modo Escriba:** Escuta aulas e reuniões, transcreve o áudio e gera resumos automáticos salvos diretamente no **Notion** do usuário.
+### 🛡️ Módulo S.O.S Acessível (Botão de Pânico)
+Pessoas surdas estão vulneráveis em situações de perigo (invasão, saúde súbita).
+* **A Solução:** Um Botão de Pânico Silencioso (Desktop/Mobile).
+* **O Protocolo de Segurança:**
+    1.  Captura a **Geolocalização Exata** via GPS.
+    2.  Envia disparos automáticos (WhatsApp via API ou SMS) para os Contatos de Emergência (Pais, Vizinhos, etc.) com a mensagem:
+    > *"S.O.S! Sou surdo e estou em perigo. Minha localização: [Link Google Maps]. Por favor, envie ajuda."*
+    3.  Imediatamente começa a **gravar o áudio do ambiente** secretamente e salva-o na nuvem como prova/registo.
 
-### 🛡️ Módulo S.O.S (The Guardian)
-* **Botão de Pânico Silencioso:** Acionamento rápido em situações de perigo.
-* **Protocolo de Emergência:**
-    1.  Captura silenciosa de **Geolocalização (GPS)**.
-    2.  Gravação de áudio ambiente oculta (Upload para Nuvem).
-    3.  Disparo automático de mensagem (WhatsApp/SMS) para Contatos de Confiança.
+### 🧠 Tutor Educacional Perpétuo
+* **Ensino Poliglota:** Tutor nativo de **LIBRAS**, Inglês, Espanhol e Português.
+* **Checkpoint Infinito:** O sistema respeita o ritmo do utilizador. Nunca recomeça do zero; o GHOST lembra-se exatamente de onde parou (lição, XP, nível).
 
-### 🎓 Módulo Tutor (The Mentor)
-* **Ensino Poliglota:** Cursos de Inglês, Espanhol, Português e **LIBRAS**.
-* **Infinite Checkpoint:** O sistema salva o progresso exato (XP, Nível, Lição). O usuário nunca recomeça do zero.
-* **Gamification:** Sistema de ofensiva (Streak), níveis (A1-C1) e recompensas visuais.
+### 🤖 Hiper-Automação (IoT & Desktop)
+O GHOST age como uma extensão física do utilizador ("The Hand"):
+* **Controle de PC:** Desliga o computador, abre e fecha aplicações e jogos específicos (como Steam, Riot Client) via comando visual.
+* **Casa Inteligente:** Liga/desliga lâmpadas inteligentes e Smart TVs.
+* **Assistente de Rotina:** Informa visualmente a previsão do tempo e gere a agenda.
 
-### 🤖 Módulo IoT & Controle (The Hand)
-* **Desktop Control (Electron):** Comandos para desligar PC, abrir jogos (Steam), e gerenciar janelas.
-* **Automação Residencial:** Integração para controle de luzes e smart TVs.
+### 👁️ Avatar & Presença (Visual Feedback)
+* **Rastreamento Híbrido:** Integração com *Ready Player Me*. O avatar segue os movimentos da cabeça do utilizador pela Webcam para manter contacto visual.
+* **Fallback Inteligente:** Caso o utilizador não tenha câmara, o avatar passa a seguir o cursor do rato, mantendo a sensação de companhia ("Sempre ao seu lado").
+* **Lip-Sync Real:** Sincronia labial baseada na amplitude da voz da IA.
+
+### 📝 Modo Escriba (Segundo Cérebro)
+* **Transcrição Inteligente:** O utilizador pode deixar o microfone ligado durante uma aula ou reunião.
+* **Resumo Automático:** A IA escuta, transcreve e salva automaticamente as partes mais importantes e resumos diretamente nas anotações ou no **Notion**.
 
 ---
 
