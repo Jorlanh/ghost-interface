@@ -8,7 +8,7 @@
 > **"A alma na máquina. Sua segurança, seu tutor, seu controle."**
 
 <div align="center">
-  <img src="public/GHOST.png" alt="GHOST Logo" width="200" />
+  <img src="/ghost-interface-main/public/GHOST.png" alt="GHOST Logo" width="200" />
   <br>
   <i>Uma Entidade Cibernética de Acessibilidade e Produtividade.</i>
 </div>
