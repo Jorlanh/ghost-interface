@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# GHOST Ecosystem 👻
 
-## Project info
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-MVP%20Active-success)
+![Version](https://img.shields.io/badge/version-1.0.0-cyan)
+![Stack](https://img.shields.io/badge/tech-React%20%7C%20Electron%20%7C%20Spring%20Boot%20%7C%20AI-purple)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+> **"A alma na máquina. Sua segurança, seu tutor, seu controle."**
 
-## How can I edit this code?
+<div align="center">
+  <img src="public/GHOST.png" alt="GHOST Logo" width="200" />
+  <br>
+  <i>Uma Entidade Cibernética de Acessibilidade e Produtividade.</i>
+</div>
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📋 Sobre o Projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+O **GHOST** não é apenas um assistente virtual; é um ecossistema **SaaS (Software as a Service)** projetado para atuar como uma extensão cognitiva e física do usuário.
 
-Changes made via Lovable will be committed automatically to this repo.
+Construído sob uma arquitetura de microsserviços e envolto em uma estética **Cyberpunk/Tactical**, o GHOST resolve três dores modernas:
+1.  **Inclusão:** Ensino de idiomas e LIBRAS acessível.
+2.  **Segurança:** Protocolos de emergência para PcD (Pessoas com Deficiência).
+3.  **Hiper-Automação:** Controle total de Hardware (PC) e IoT.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Funcionalidades Principais
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🧠 Core & Inteligência (The Brain)
+* **Avatar 3D Vivo:** Integração com *Ready Player Me*. O avatar (ASPAS/CHRONO) segue o rosto do usuário via Webcam e possui sincronia labial (Lip-Sync) em tempo real baseada na amplitude da voz.
+* **Processamento Natural:** Motorizado pela API **Google Gemini**, capaz de entender contexto, ironia e comandos complexos.
+* **Modo Escriba:** Escuta aulas e reuniões, transcreve o áudio e gera resumos automáticos salvos diretamente no **Notion** do usuário.
 
-Follow these steps:
+### 🛡️ Módulo S.O.S (The Guardian)
+* **Botão de Pânico Silencioso:** Acionamento rápido em situações de perigo.
+* **Protocolo de Emergência:**
+    1.  Captura silenciosa de **Geolocalização (GPS)**.
+    2.  Gravação de áudio ambiente oculta (Upload para Nuvem).
+    3.  Disparo automático de mensagem (WhatsApp/SMS) para Contatos de Confiança.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🎓 Módulo Tutor (The Mentor)
+* **Ensino Poliglota:** Cursos de Inglês, Espanhol, Português e **LIBRAS**.
+* **Infinite Checkpoint:** O sistema salva o progresso exato (XP, Nível, Lição). O usuário nunca recomeça do zero.
+* **Gamification:** Sistema de ofensiva (Streak), níveis (A1-C1) e recompensas visuais.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🤖 Módulo IoT & Controle (The Hand)
+* **Desktop Control (Electron):** Comandos para desligar PC, abrir jogos (Steam), e gerenciar janelas.
+* **Automação Residencial:** Integração para controle de luzes e smart TVs.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠️ Stack Tecnológica
 
-**Edit a file directly in GitHub**
+O projeto segue uma arquitetura moderna de **Monorepo** com separação clara de responsabilidades.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Frontend (Interface)
+* **Framework:** React.js (Vite)
+* **Desktop Engine:** Electron
+* **Estilização:** TailwindCSS + Augmented-ui (Cyberpunk Aesthetics)
+* **3D Engine:** React Three Fiber (Three.js)
+* **State Management:** Zustand
+* **Motion:** Framer Motion
 
-**Use GitHub Codespaces**
+### Backend (Microservices)
+* **Linguagem:** Java 17 (Spring Boot 3)
+* **Service Discovery:** Netflix Eureka
+* **Gateway:** Spring Cloud Gateway
+* **Database:** PostgreSQL (Dados) + Redis (Cache)
+* **Mensageria:** RabbitMQ
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Mobile
+* **Framework:** React Native (Expo)
+* **Foco:** Geolocalização em Background e Biometria.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📂 Estrutura de Pastas
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+ghost-ecosystem/
+├── clients/
+│   ├── ghost-desktop/      # Interface React + Electron
+│   ├── ghost-mobile/       # App Android/iOS
+│   └── ghost-web/          # Landing Page Institucional
+├── backend/
+│   ├── ghost-core/         # Lógica de IA e Orquestração
+│   ├── ghost-auth/         # Servidor de Identidade (Oauth2)
+│   ├── ghost-integrations/ # Conectores (Notion, Stripe, Maps)
+│   └── ghost-discovery/    # Eureka Server
+└── infrastructure/
+    ├── docker-compose.yml  # Ambientes (Banco, Redis, Broker)
+    └── k8s/                # Configurações Kubernetes
